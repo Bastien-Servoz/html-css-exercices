@@ -1,10 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Exercice 01</title>
-</head>
-<body>
-  <h1>Exercice 01</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- titre de la page  -->
+    <title>Cours HTML de zéro</title>
+    <!-- icone de l'onglet -->
+    <link rel="shortcut icon" href="./Logo-Head.png" />
+  </head>
+  <body>
+    <nav>
+      <!-- UL = unordered List -->
+      <ul>
+        <li>Accueil</li>
+        <li>Boutique</li>
+        <li> 
+          <a href="#form">Formulaire</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <!-- un seul H1 par page -->
+      <h1>Ceci est le titre principal</h1>
+      <p>
+        texte classique <em>texte en italique</em>
+        <strong>texte en gras</strong>
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, iste
+        mollitia veritatis accusamus sed dolor quaerat dicta illum tempore ipsa
+        modi exercitationem, veniam eaque, cupiditate illo sit maxime vitae
+        corrupti?
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Ordered List</h2>
+        <ol>
+          <li>Ceci est une</li>
+          <li>liste dans</li>
+          <li>l'ordre</li>
+        </ol>
+      </section>
+      <section>
+        <h3>Image en HTML</h3>
+        <img src="./Capture d'écran 2026-09-12 152112.png" height="200" alt="logo ONI FC">
+        <!-- L'alt de l'image est pour l'accessibilité -->
+          <div>
+              <H4>Tableaux</H4>
+              <table border="4"
+                cellpadding="10"
+                cellspacing="4" 
+                style="text align: center" >
+
+                <!-- thead est pour l'entête du tableau -->
+               <thead>
+                <tr></tr>
+                  <th>Col 1</th>
+                  <th>Col 2</th>
+                  <th>Col 3</th>
+               </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="2">Cell 1</td>
+                   <td>Cell 2</td>
+                    <td>Cell 3</td>
+                  </tr>
+                 <tr>
+                   <td colspan="2">Cell 4</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          <div>
+            <H5><i>&#8594;</i>Les Liens</H5>
+            <!-- _blank permet de créer un nouvel onglet lors de l'ouverture du lien  -->
+            <a href="https://htmlcheatsheet.com"target="_blank">HTML cheat sheet</a>
+          </div>
+          <div>
+            <H6><span>&#128190;</span>Vidéos</H6>
+            <video src="./Terrain de foot.mp4" height="300" autoplay muted loop></video>
+          </div>
+      </section>
+      <section id="form">
+        <H2>Les Formulaires</H2>
+        <form action="">
+          <!-- input text pour le text number date -->
+           <label for="name">Nom</label>
+           <!-- for et id permettent de lier le label à l'input-->
+          <input type="text" id="name" placeholder="Entrez votre nom">
+          
+          <!-- br pour sauter la ligne  -->
+          <br>
+          <label for="âge">Entrez votre âge</label>
+          <!-- value valeur de base dans l'input -->
+          <input type="number" id="âge" value="18">
+
+          <br>
+
+          <!-- input de type select  -->
+           <label for="gender">Genre</label>
+           <select id="gender">
+            <option value="Homme">Homme</option>
+            <option selected="selected" value="Femme">Femme</option>
+            <option value="Autre">Autre</option>
+           </select>
+
+           <!-- input de type radio  -->
+            <div>
+              <input type="radio" name="type" id="human" checked>
+              <label for="human">Humain</label>
+
+              <input type="radio" name="type" id="dog">
+              <label for="dog">Chien</label>
+              
+              <input type="radio" name="type" id="Cat">
+              <label for="Cat">Chat</label>
+
+            </div>
+            <textarea placeholder="Votre Message" cols="20" rows="5">
+
+            </textarea>
+            <br>
+            <!-- Input de type checkbox -->
+             <input type="checkbox" id="cgv">
+             <label for="cgv">Accepter les conditions générales</label>
+
+             <br>
+            <!-- L'input de type submint permet de conclure le formulaire -->
+             <input type="submit" value="Ceci est un bouton pour valider le formulaire">
+            </form>
+            <button>ceci est un bouton</button>
+      </section>
+    </main>
+    <!-- mail et envoie de fichier  -->
+    <footer>
+      <a href="mailto:frapzy74@gmail.com">Contactez moi</a>
+      <a href="./Notice.txt" download="Notice"> Télécharger la notice</a>
+    </footer>
+  </body>
 </html>
