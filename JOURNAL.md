@@ -21,3 +21,11 @@
 - Travail sur l'architecture HTML d'une page : organisation en blocs `<div>` avec des classes,
   pensés pour faciliter le stylage CSS à venir
 - Vérifié localement (file:///), affichage conforme
+
+— TD 3 : intégration d'une maquette professionnelle
+
+- Créé `td-html/td-03/index.html`
+- Intégration d'une maquette plus poussée que le TD 2 : plus de contenu, d'images et de liens
+- Vérifié localement (file:///), affichage conforme
+- Ajout du dossier `td-html/td-correction/` pour y déposer les corrections du formateur
+- Ajout de la correction du TD 3 dans `td-html/td-correction/`
