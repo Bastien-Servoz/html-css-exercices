@@ -14,3 +14,10 @@
 - TD 1 : tableau HTML complexe avec fusions de cellules (colspan/rowspan).
 - Petite galère de manipulation : le dossier `td-html/td-01/` avait été créé par erreur à l'intérieur de `exercice-01/` au lieu de la racine du dépôt. Corrigé en déplaçant le dossier et en committant le changement.
 - Mise à jour du sommaire dans le README avec le lien vers le TD 1.
+
+— TD 2 : structure d'une maquette de site
+
+- Créé `td-html/td-02/index.html`
+- Travail sur l'architecture HTML d'une page : organisation en blocs `<div>` avec des classes,
+  pensés pour faciliter le stylage CSS à venir
+- Vérifié localement (file:///), affichage conforme
