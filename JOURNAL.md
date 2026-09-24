@@ -29,3 +29,27 @@
 - Vérifié localement (file:///), affichage conforme
 - Ajout du dossier `td-html/td-correction/` pour y déposer les corrections du formateur
 - Ajout de la correction du TD 3 dans `td-html/td-correction/`
+
+## Jour 3
+
+- Date : 23/09/2026
+  Cours CSS (partie 1/2)
+
+- Début du nouveau point de cours, dispensé en 2 parties, dédié au CSS
+- Terminé la première partie du cours
+- Installation et configuration des extensions/plugins indispensables pour la suite :
+  - Extensions VS Code
+  - Extensions Chrome
+
+  ### Notions CSS vues aujourd'hui
+
+- **Polices** : import de police externe via `@import url(...)` (Google Fonts) et déclaration de police locale avec `@font-face`
+- **Texte** : `text-transform`, `letter-spacing`, `text-align`, tailles en `rem`, `text-shadow`, `font-family`
+- **Boîtes** : centrage avec `margin: 0 auto`, bordures (`border`, `border-radius`), ombre de boîte (`box-shadow`), fond en `rgba`
+- **Flexbox** : répartition équitable des éléments (`justify-content: space-around`), centrage vertical/horizontal (`justify-content` + `align-items`)
+- **Grid** : mise en page en colonnes (`grid-template-columns`), et grille nommée avec `grid-template-areas` (ex : formulaire avec zones `i1`, `i2`, `ta`, `vi`, `bt`)
+- **Positionnement** : `position: relative` sur le parent pour contenir un enfant en `position: absolute`, usage de `top`, `right`, `left`, `transform: translateX(-50%)` pour centrer un élément positionné
+- **Interactivité** : `cursor: pointer`, `transition`, effet `:hover`
+- **Responsive** : media queries (`@media screen and (max-width: ...)`) pour adapter la mise en page (grid → block, flex-direction en colonne) selon la largeur d'écran
+
+- Prochaine étape : partie 2 du cours CSS
