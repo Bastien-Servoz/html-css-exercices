@@ -53,3 +53,30 @@
 - **Responsive** : media queries (`@media screen and (max-width: ...)`) pour adapter la mise en page (grid → block, flex-direction en colonne) selon la largeur d'écran
 
 - Prochaine étape : partie 2 du cours CSS
+
+## Jour 4
+
+- 24/09/2026
+  Cours CSS (partie 2/2)
+
+- Suivi du cours en live, code réalisé en parallèle du formateur avec personnalisation
+- À partir de maintenant : intégration des notions en codant en même temps que le cours, sans TP après coup
+
+### Notions CSS vues aujourd'hui
+
+- **Variables CSS** : déclaration de couleurs réutilisables avec `:root` et `var(--nom)`
+- **Reset global** : `* { margin: 0; padding: 0; box-sizing: border-box; }`
+- **Pseudo-éléments** : `::before` et `::after` pour insérer du contenu décoratif (icône, soulignement animé, texte superposé)
+- **Animations** : `@keyframes` et `animation` pour des effets progressifs (ligne qui se dessine, élément qui flotte façon "cheese")
+- **Grid** : mise en page en colonnes avec `grid-template-columns`, alignement d'un élément avec `place-self`
+- **Formes personnalisées** : `clip-path: polygon(...)` pour créer un losange, `linear-gradient` en fond
+- **Effets visuels** : `filter: drop-shadow(...)`, `backdrop-filter: blur(...)` pour flouter l'arrière-plan d'une carte
+- **Troncature de texte** : `-webkit-line-clamp` pour limiter un paragraphe à un nombre de lignes avec `...`
+- **Personnalisation de sélection** : `::selection` pour changer la couleur du texte sélectionné
+- **Checkbox stylisée** : technique `input[type="checkbox"]:checked + label` pour transformer une case à cocher en bouton cliquable stylisé
+- **Perspective / 3D** : `perspective` sur le parent + `translateZ` sur l'enfant pour un effet de profondeur au survol
+- **Champs de formulaire** : `:focus`, `::placeholder`, transitions sur les bordures
+- **Pseudo-classes d'interaction** : `:hover`, `:active`, `:visited`, et combo `button:hover + a` pour afficher un élément au survol d'un autre
+- **Visibilité animée** : combinaison `opacity`, `visibility`, `transform: translateY(...)` et `transition` pour une apparition en douceur
+
+- Prochaine étape : Apprentissage GITHUB
